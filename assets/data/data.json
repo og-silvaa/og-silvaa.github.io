@@ -3,12 +3,45 @@
     "descripcion": "<p>Profesional en tecnología con más de 15 años de experiencia en desarrollo de software, arquitectura de aplicaciones y gestión de proyectos TI. Especializado en .NET, Java (Spring Boot), Node.js y PHP, con experiencia en bases de datos SQL Server, Oracle y MongoDB. Amplio conocimiento en cloud computing (AWS, Azure), microservicios, seguridad en aplicaciones y metodologías ágiles.</p><p>He diseñado e implementado soluciones empresariales escalables, integrando APIs, automatización e inteligencia artificial. Además, tengo experiencia en estándares de seguridad como ISO 27001 y en optimización de procesos con Business Intelligence. Actualmente, me enfoco en el desarrollo de software seguro y eficiente para entornos empresariales.</p>",
     "proyectos": [
         {
-            "titulo": "API's para tokenización de Banco importante de México",
-            "descripcion":"Desarrollo de APIs seguras y escalables para la tokenización de datos en un banco líder de México, permitiendo la protección de información sensible en transacciones financieras. Implementación de estándares de seguridad como PCI-DSS y encriptación avanzada para garantizar la confidencialidad y el cumplimiento normativo."
+            "titulo": "API's para tokenización",
+            "entidad": "CitiBanamex",
+            "anio": 2024,
+            "pais": "México",
+            "rubro": "Banca",
+            "descripcion":"Desarrollo de APIs seguras y escalables para la tokenización de datos en un banco líder de México, permitiendo la protección de información sensible en transacciones financieras. Implementación de estándares de seguridad como PCI-DSS y encriptación avanzada para garantizar la confidencialidad y el cumplimiento normativo.",
+            "visible":null
         },
         {
-            "titulo": "API para transportar información biomética para importante banco de Ecuador",
+            "titulo": "API para transportar información biomética",
+            "entidad": "Banco Pichincha",
+            "anio": 2024,
+            "pais":"Ecuador",
+            "rubro":"Banca",
             "descripcion":"Desarrollo de una API segura y eficiente para la transmisión de información biométrica en un banco líder de Ecuador. Implementación de cifrado avanzado y protocolos de autenticación robustos para garantizar la integridad, confidencialidad y cumplimiento de normativas en la gestión de datos sensibles."
+        },
+        {
+            "titulo": "Desarrollo de API's de colocaciones - Transformación Digital",
+            "entidad": "Banco Macro",
+            "anio": 2024,
+            "pais":"Argentina",
+            "rubro":"Banca",
+            "descripcion":"Desarrollé un conjunto de API’s para optimizar el proceso de colocaciones en el sector financiero, mejorando la integración con sistemas internos y externos, automatizando operaciones y fortaleciendo la seguridad. Este proyecto, parte de una estrategia de transformación digital, se enfocó en escalabilidad, alto rendimiento y disponibilidad, asegurando una experiencia eficiente para los usuarios."
+        },
+        {
+            "titulo": "Desarrollo de API's de colocaciones - Transformación Digital",
+            "entidad": "Banco Macro",
+            "anio": 2023,
+            "pais":"Argentina",
+            "rubro":"Banca",
+            "descripcion":"Desarrollé un conjunto de API’s para optimizar el proceso de colocaciones en el sector financiero, mejorando la integración con sistemas internos y externos, automatizando operaciones y fortaleciendo la seguridad. Este proyecto, parte de una estrategia de transformación digital, se enfocó en escalabilidad, alto rendimiento y disponibilidad, asegurando una experiencia eficiente para los usuarios."
+        },
+        {
+            "titulo": "Desarrollo de API's de colocaciones - Transformación Digital",
+            "entidad": "Banco Macro",
+            "anio": 2023,
+            "pais":"Argentina",
+            "rubro":"Banca",
+            "descripcion":"Desarrollé un conjunto de API’s para optimizar el proceso de colocaciones en el sector financiero, mejorando la integración con sistemas internos y externos, automatizando operaciones y fortaleciendo la seguridad. Este proyecto, parte de una estrategia de transformación digital, se enfocó en escalabilidad, alto rendimiento y disponibilidad, asegurando una experiencia eficiente para los usuarios."
         }
     ]
 }

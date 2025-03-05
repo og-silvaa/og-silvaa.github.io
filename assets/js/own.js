@@ -19,10 +19,21 @@ function updatePage() {
 function proyectos(proyectos){
     let contenedor= document.getElementById("proyectos")
     proyectos.forEach(proyecto=>{
-        let card= `<div class="proyecto">
-          <div>${proyecto.titulo}</div>
+      if(proyecto.visible==false) return;
+        let card= `
+          <div class="proyecto">
+          <h3>${proyecto.titulo}</h3>
+          ${componeCard(proyecto)}
           <div>${proyecto.descripcion}</div>
         </div>`;
         contenedor.innerHTML +=card;
     });
+}
+function componeCard(proyecto){
+  let card=``;
+  if(Date.year- proyecto.anio>4)
+    card+=`<h4>${proyecto.entidad} - ${proyecto.anio}</h4>`;
+  else
+    card+=`<h4>Importante ${proyecto.rubro} en ${proyecto.pais} - ${proyecto.anio}</h4>`;
+  return card;
 }
