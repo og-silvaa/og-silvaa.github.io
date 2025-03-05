@@ -23,15 +23,15 @@ function proyectos(proyectos){
         let card= `
           <div class="proyecto">
           <h3>${proyecto.titulo}</h3>
-          ${componeCard(proyecto)}
+          ${entidad(proyecto)}
           <div>${proyecto.descripcion}</div>
         </div>`;
         contenedor.innerHTML +=card;
     });
 }
-function componeCard(proyecto){
+function entidad(proyecto){
   let card=``;
-  if(Date.year- proyecto.anio>4)
+  if(proyecto.entidadVisible || new Date().getFullYear()-proyecto.anio>4)
     card+=`<h4>${proyecto.entidad} - ${proyecto.anio}</h4>`;
   else
     card+=`<h4>Importante ${proyecto.rubro} en ${proyecto.pais} - ${proyecto.anio}</h4>`;

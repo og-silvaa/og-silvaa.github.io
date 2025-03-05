@@ -1544,7 +1544,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 60rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1663,6 +1663,6 @@ input, select, textarea {
 /* Propios*/
 .proyecto{
 	padding: 1em;
-    background: rgba(100, 0, 0, 0.2);
+    background: rgba(0, 53, 100, 0.1);
     margin-bottom: 2em;
 }
