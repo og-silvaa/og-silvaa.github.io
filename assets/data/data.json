@@ -9,7 +9,8 @@
             "pais": "México",
             "rubro": "Banca",
             "descripcion":"Desarrollo de APIs seguras y escalables para la tokenización de datos en un banco líder de México, permitiendo la protección de información sensible en transacciones financieras. Implementación de estándares de seguridad como PCI-DSS y encriptación avanzada para garantizar la confidencialidad y el cumplimiento normativo.",
-            "visible":null
+            "visible":null,
+            "tecnologias":["Java 17", "GCP", "Spring Boot", "CBlogs", "IntelliJ"]
         },
         {
             "titulo": "API para transportar información biomética",
@@ -17,7 +18,8 @@
             "anio": 2024,
             "pais":"Ecuador",
             "rubro":"Banca",
-            "descripcion":"Desarrollo de una API segura y eficiente para la transmisión de información biométrica en un banco líder de Ecuador. Implementación de cifrado avanzado y protocolos de autenticación robustos para garantizar la integridad, confidencialidad y cumplimiento de normativas en la gestión de datos sensibles."
+            "descripcion":"Desarrollo de una API segura y eficiente para la transmisión de información biométrica en un banco líder de Ecuador. Implementación de cifrado avanzado y protocolos de autenticación robustos para garantizar la integridad, confidencialidad y cumplimiento de normativas en la gestión de datos sensibles.",
+            "tecnologias":["Java 11", "AWS", "Spring Boot", "IntelliJ"]
         },
         {
             "titulo": "Desarrollo de API's de colocaciones - Transformación Digital",
@@ -25,15 +27,16 @@
             "anio": 2023,
             "pais":"Argentina",
             "rubro":"Banca",
-            "descripcion":"Desarrollé un conjunto de API’s para optimizar el proceso de colocaciones en el sector financiero, mejorando la integración con sistemas internos y externos, automatizando operaciones y fortaleciendo la seguridad. Este proyecto, parte de una estrategia de transformación digital, se enfocó en escalabilidad, alto rendimiento y disponibilidad, asegurando una experiencia eficiente para los usuarios."
-        },
+            "descripcion":"Desarrollé un conjunto de API’s para optimizar el proceso de colocaciones en el sector financiero, mejorando la integración con sistemas internos y externos, automatizando operaciones y fortaleciendo la seguridad. Este proyecto, parte de una estrategia de transformación digital, se enfocó en escalabilidad, alto rendimiento y disponibilidad, asegurando una experiencia eficiente para los usuarios.",
+            "tecnologias":["Java 11", "AWS", "Spring Boot", "IntelliJ"]},
         {
             "titulo": "Reconstrucción de core de cobranzas y seguimiento de pagos",
             "entidad": "Niubiz",
             "anio": 2022,
             "pais":"Perú",
             "rubro":"Banca",
-            "descripcion":"Participé en la reconstrucción del core de cobranzas y seguimiento de pagos, optimizando procesos críticos para mejorar la gestión de deudas y la conciliación financiera. La nueva arquitectura permitió mayor escalabilidad, integración con múltiples sistemas y una automatización más eficiente, reduciendo tiempos de respuesta y mejorando la trazabilidad de pagos."
+            "descripcion":"Participé en la reconstrucción del core de cobranzas y seguimiento de pagos, optimizando procesos críticos para mejorar la gestión de deudas y la conciliación financiera. La nueva arquitectura permitió mayor escalabilidad, integración con múltiples sistemas y una automatización más eficiente, reduciendo tiempos de respuesta y mejorando la trazabilidad de pagos.",
+            "tecnologias":["Java 11","NodeJs", "AWS", "Spring Boot", "IntelliJ", "Visual Studio Code"]
         },
         {
             "titulo": "Construcción de API's para el soporte del Sistema VUCE 2.0",
@@ -42,7 +45,8 @@
             "anio": 2022,
             "pais":"Perú",
             "rubro":"Ministerio",
-            "descripcion":"Desarrollé un sistema de control de naves en puertos del Perú para monitorear y gestionar protocolos sanitarios durante la pandemia de COVID-19. La solución permitió un seguimiento en tiempo real del estado de embarcaciones, tripulantes y medidas de bioseguridad, facilitando la toma de decisiones y garantizando el cumplimiento de normativas sanitarias."       
+            "descripcion":"Desarrollé un sistema de control de naves en puertos del Perú para monitorear y gestionar protocolos sanitarios durante la pandemia de COVID-19. La solución permitió un seguimiento en tiempo real del estado de embarcaciones, tripulantes y medidas de bioseguridad, facilitando la toma de decisiones y garantizando el cumplimiento de normativas sanitarias.",
+            "tecnologias":["Java 11","NodeJs", "AWS", "Spring Boot", "IntelliJ", "Visual Studio Code"]       
         },
         {
             "titulo": "Portal Financiero",
@@ -50,7 +54,8 @@
             "anio": 2020,
             "pais":"Perú",
             "rubro":"Finanzas",
-            "descripcion":"Un Portal Financiero exclusivo para clientes de alto valor, diseñado para automatizar procesos manuales y optimizar la gestión de su portafolio financiero. La plataforma digitaliza tareas repetitivas, mejora la administración de inversiones y redistribuye el trabajo entre los analistas, permitiéndoles enfocarse en estrategias personalizadas y en brindar un servicio más exclusivo y eficiente."       
+            "descripcion":"Un Portal Financiero exclusivo para clientes de alto valor, diseñado para automatizar procesos manuales y optimizar la gestión de su portafolio financiero. La plataforma digitaliza tareas repetitivas, mejora la administración de inversiones y redistribuye el trabajo entre los analistas, permitiéndoles enfocarse en estrategias personalizadas y en brindar un servicio más exclusivo y eficiente.",
+            "tecnologias":[".Net Core", "SqlServer", "AWS", "Power BI"]       
         },
         {
             "titulo": "IKU (I Know You)",
@@ -58,7 +63,8 @@
             "anio": 2019,
             "pais":"Perú",
             "rubro":"Belleza y Cosmética",
-            "descripcion":"Un sistema inteligente que recopila y procesa datos de múltiples fuentes, como bases de datos internas, API’s externas, redes sociales y un datalake, para identificar patrones y prever las necesidades de los usuarios finales. Utiliza análisis avanzado, machine learning y big data para generar perfiles detallados, detectar tendencias y ofrecer recomendaciones personalizadas en tiempo real, optimizando la toma de decisiones y mejorando la experiencia del usuario."       
+            "descripcion":"Un sistema inteligente que recopila y procesa datos de múltiples fuentes, como bases de datos internas, API’s externas, redes sociales y un datalake, para identificar patrones y prever las necesidades de los usuarios finales. Utiliza análisis avanzado, machine learning y big data para generar perfiles detallados, detectar tendencias y ofrecer recomendaciones personalizadas en tiempo real, optimizando la toma de decisiones y mejorando la experiencia del usuario.",
+            "tecnologias":["NodeJs", "Azure", "Tableau"]         
         },
         {
             "titulo": "OAPI",
@@ -66,15 +72,36 @@
             "anio": 2019,
             "pais":"Perú",
             "rubro":"Belleza y Cosmética",
-            "descripcion":"Plataforma diseñada para administrar y proteger el acceso a códigos de diferentes sistemas mediante API’s seguras. Implementa autenticación robusta y control de permisos granular para garantizar que solo usuarios autorizados puedan acceder a los recursos. Este sistema ofrece cifrado en tránsito y en reposo, registro de auditoría detallado y una arquitectura basada en API’s para facilitar la integración con entornos empresariales. Ideal para organizaciones que buscan gestionar accesos de manera centralizada sin comprometer la seguridad de su información."       
-        },
+            "descripcion":"Plataforma diseñada para administrar y proteger el acceso a códigos de diferentes sistemas mediante API’s seguras. Implementa autenticación robusta y control de permisos granular para garantizar que solo usuarios autorizados puedan acceder a los recursos. Este sistema ofrece cifrado en tránsito y en reposo, registro de auditoría detallado y una arquitectura basada en API’s para facilitar la integración con entornos empresariales. Ideal para organizaciones que buscan gestionar accesos de manera centralizada sin comprometer la seguridad de su información.",
+            "tecnologias":["Kong", "Apigee", "AWS"]  },
         {
             "titulo": "SVD (Sistema de Verificación de Direcciones)",
             "entidad": "BanBif",
             "anio": 2018,
             "pais":"Perú",
             "rubro":"Banca",
-            "descripcion":"Un Sistema de Verificación de Direcciones que centraliza, orquesta y almacena las direcciones de clientes para su validación automática, reduciendo costos operativos y mejorando la precisión en la gestión de datos. La plataforma proporciona esta funcionalidad a múltiples aplicaciones dentro del banco y a clientes externos a través de Banca Red, garantizando integridad, eficiencia y mayor alcance en la validación de direcciones."       
-        }
+            "descripcion":"Un Sistema de Verificación de Direcciones que centraliza, orquesta y almacena las direcciones de clientes para su validación automática, reduciendo costos operativos y mejorando la precisión en la gestión de datos. La plataforma proporciona esta funcionalidad a múltiples aplicaciones dentro del banco y a clientes externos a través de Banca Red, garantizando integridad, eficiencia y mayor alcance en la validación de direcciones.",
+            "tecnologias":[".Net", "SqlServer", "Entity Framework", "WCF"]  }
+    ],
+    "iconos":[
+        {"Java 17":"java"},
+        {"Java 11":"java"},
+        {"Spring Boot":"springboot"},
+        {"GCP":"gcp"},
+        {"AWS":"aws"},
+        {"IntelliJ":"intellij"},
+        {"NodeJs":"nodejs"},
+        {"Visual Studio Code":"vscode"},
+        {".Net Core":"netcore"},
+        {".Net":"net"},
+        {"SqlServer":"sqlserver"},
+        {"Power BI":"powerbi"},
+        {"Azure":"azure"},
+        {"Tableau":"tableau"},
+        {"Kong":"kong"},
+        {"Apigee":"apigee"},
+        {"Entity Framework":"ef"},
+        {"WCF":"wcf"}
+
     ]
 }
