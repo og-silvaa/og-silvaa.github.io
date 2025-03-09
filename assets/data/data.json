@@ -8,100 +8,511 @@
             "anio": 2024,
             "pais": "México",
             "rubro": "Banca",
-            "descripcion":"Desarrollo de APIs seguras y escalables para la tokenización de datos en un banco líder de México, permitiendo la protección de información sensible en transacciones financieras. Implementación de estándares de seguridad como PCI-DSS y encriptación avanzada para garantizar la confidencialidad y el cumplimiento normativo.",
-            "visible":null,
-            "tecnologias":["Java 17", "GCP", "Spring Boot", "CBlogs", "IntelliJ"]
+            "descripcion": "Desarrollo de APIs seguras y escalables para la tokenización de datos en un banco líder de México, permitiendo la protección de información sensible en transacciones financieras. Implementación de estándares de seguridad como PCI-DSS y encriptación avanzada para garantizar la confidencialidad y el cumplimiento normativo.",
+            "visible": null,
+            "tecnologias": [
+                "Java 17",
+                "GCP",
+                "Spring Boot",
+                "CBlogs",
+                "IntelliJ"
+            ]
         },
         {
             "titulo": "API para transportar información biomética",
             "entidad": "Banco Pichincha",
             "anio": 2024,
-            "pais":"Ecuador",
-            "rubro":"Banca",
-            "descripcion":"Desarrollo de una API segura y eficiente para la transmisión de información biométrica en un banco líder de Ecuador. Implementación de cifrado avanzado y protocolos de autenticación robustos para garantizar la integridad, confidencialidad y cumplimiento de normativas en la gestión de datos sensibles.",
-            "tecnologias":["Java 11", "AWS", "Spring Boot", "IntelliJ"]
+            "pais": "Ecuador",
+            "rubro": "Banca",
+            "descripcion": "Desarrollo de una API segura y eficiente para la transmisión de información biométrica en un banco líder de Ecuador. Implementación de cifrado avanzado y protocolos de autenticación robustos para garantizar la integridad, confidencialidad y cumplimiento de normativas en la gestión de datos sensibles.",
+            "tecnologias": [
+                "Java 11",
+                "AWS",
+                "Spring Boot",
+                "IntelliJ"
+            ]
         },
         {
             "titulo": "Desarrollo de API's de colocaciones - Transformación Digital",
             "entidad": "Banco Macro",
             "anio": 2023,
-            "pais":"Argentina",
-            "rubro":"Banca",
-            "descripcion":"Desarrollé un conjunto de API’s para optimizar el proceso de colocaciones en el sector financiero, mejorando la integración con sistemas internos y externos, automatizando operaciones y fortaleciendo la seguridad. Este proyecto, parte de una estrategia de transformación digital, se enfocó en escalabilidad, alto rendimiento y disponibilidad, asegurando una experiencia eficiente para los usuarios.",
-            "tecnologias":["Java 11", "AWS", "Spring Boot", "IntelliJ"]},
+            "pais": "Argentina",
+            "rubro": "Banca",
+            "descripcion": "Desarrollé un conjunto de API’s para optimizar el proceso de colocaciones en el sector financiero, mejorando la integración con sistemas internos y externos, automatizando operaciones y fortaleciendo la seguridad. Este proyecto, parte de una estrategia de transformación digital, se enfocó en escalabilidad, alto rendimiento y disponibilidad, asegurando una experiencia eficiente para los usuarios.",
+            "tecnologias": [
+                "Java 11",
+                "AWS",
+                "Spring Boot",
+                "IntelliJ"
+            ]
+        },
         {
             "titulo": "Reconstrucción de core de cobranzas y seguimiento de pagos",
             "entidad": "Niubiz",
             "anio": 2022,
-            "pais":"Perú",
-            "rubro":"Banca",
-            "descripcion":"Participé en la reconstrucción del core de cobranzas y seguimiento de pagos, optimizando procesos críticos para mejorar la gestión de deudas y la conciliación financiera. La nueva arquitectura permitió mayor escalabilidad, integración con múltiples sistemas y una automatización más eficiente, reduciendo tiempos de respuesta y mejorando la trazabilidad de pagos.",
-            "tecnologias":["Java 11","NodeJs", "AWS", "Spring Boot", "IntelliJ", "Visual Studio Code"]
+            "pais": "Perú",
+            "rubro": "Banca",
+            "descripcion": "Participé en la reconstrucción del core de cobranzas y seguimiento de pagos, optimizando procesos críticos para mejorar la gestión de deudas y la conciliación financiera. La nueva arquitectura permitió mayor escalabilidad, integración con múltiples sistemas y una automatización más eficiente, reduciendo tiempos de respuesta y mejorando la trazabilidad de pagos.",
+            "tecnologias": [
+                "Java 11",
+                "NodeJs",
+                "AWS",
+                "Spring Boot",
+                "IntelliJ",
+                "Visual Studio Code"
+            ]
         },
         {
             "titulo": "Construcción de API's para el soporte del Sistema VUCE 2.0",
             "entidad": "MINCETUR",
-            "entidadVisible":true,
+            "entidadVisible": true,
             "anio": 2022,
-            "pais":"Perú",
-            "rubro":"Ministerio",
-            "descripcion":"Desarrollé un sistema de control de naves en puertos del Perú para monitorear y gestionar protocolos sanitarios durante la pandemia de COVID-19. La solución permitió un seguimiento en tiempo real del estado de embarcaciones, tripulantes y medidas de bioseguridad, facilitando la toma de decisiones y garantizando el cumplimiento de normativas sanitarias.",
-            "tecnologias":["Java 11","NodeJs", "AWS", "Spring Boot", "IntelliJ", "Visual Studio Code"]       
+            "pais": "Perú",
+            "rubro": "Ministerio",
+            "descripcion": "Desarrollé un sistema de control de naves en puertos del Perú para monitorear y gestionar protocolos sanitarios durante la pandemia de COVID-19. La solución permitió un seguimiento en tiempo real del estado de embarcaciones, tripulantes y medidas de bioseguridad, facilitando la toma de decisiones y garantizando el cumplimiento de normativas sanitarias.",
+            "tecnologias": [
+                "Java 11",
+                "NodeJs",
+                "AWS",
+                "Spring Boot",
+                "IntelliJ",
+                "Visual Studio Code"
+            ]
         },
         {
             "titulo": "Portal Financiero",
             "entidad": "CREUZA",
             "anio": 2020,
-            "pais":"Perú",
-            "rubro":"Finanzas",
-            "descripcion":"Un Portal Financiero exclusivo para clientes de alto valor, diseñado para automatizar procesos manuales y optimizar la gestión de su portafolio financiero. La plataforma digitaliza tareas repetitivas, mejora la administración de inversiones y redistribuye el trabajo entre los analistas, permitiéndoles enfocarse en estrategias personalizadas y en brindar un servicio más exclusivo y eficiente.",
-            "tecnologias":[".Net Core", "SqlServer", "AWS", "Power BI"]       
+            "pais": "Perú",
+            "rubro": "Finanzas",
+            "descripcion": "Un Portal Financiero exclusivo para clientes de alto valor, diseñado para automatizar procesos manuales y optimizar la gestión de su portafolio financiero. La plataforma digitaliza tareas repetitivas, mejora la administración de inversiones y redistribuye el trabajo entre los analistas, permitiéndoles enfocarse en estrategias personalizadas y en brindar un servicio más exclusivo y eficiente.",
+            "tecnologias": [
+                ".Net Core",
+                "SqlServer",
+                "AWS",
+                "Power BI"
+            ]
         },
         {
             "titulo": "IKU (I Know You)",
             "entidad": "BELCORP",
             "anio": 2019,
-            "pais":"Perú",
-            "rubro":"Belleza y Cosmética",
-            "descripcion":"Un sistema inteligente que recopila y procesa datos de múltiples fuentes, como bases de datos internas, API’s externas, redes sociales y un datalake, para identificar patrones y prever las necesidades de los usuarios finales. Utiliza análisis avanzado, machine learning y big data para generar perfiles detallados, detectar tendencias y ofrecer recomendaciones personalizadas en tiempo real, optimizando la toma de decisiones y mejorando la experiencia del usuario.",
-            "tecnologias":["NodeJs", "Azure", "Tableau"]         
+            "pais": "Perú",
+            "rubro": "Belleza y Cosmética",
+            "descripcion": "Un sistema inteligente que recopila y procesa datos de múltiples fuentes, como bases de datos internas, API’s externas, redes sociales y un datalake, para identificar patrones y prever las necesidades de los usuarios finales. Utiliza análisis avanzado, machine learning y big data para generar perfiles detallados, detectar tendencias y ofrecer recomendaciones personalizadas en tiempo real, optimizando la toma de decisiones y mejorando la experiencia del usuario.",
+            "tecnologias": [
+                "NodeJs",
+                "Azure",
+                "Tableau"
+            ]
         },
         {
             "titulo": "OAPI",
             "entidad": "BELCORP",
             "anio": 2019,
-            "pais":"Perú",
-            "rubro":"Belleza y Cosmética",
-            "descripcion":"Plataforma diseñada para administrar y proteger el acceso a códigos de diferentes sistemas mediante API’s seguras. Implementa autenticación robusta y control de permisos granular para garantizar que solo usuarios autorizados puedan acceder a los recursos. Este sistema ofrece cifrado en tránsito y en reposo, registro de auditoría detallado y una arquitectura basada en API’s para facilitar la integración con entornos empresariales. Ideal para organizaciones que buscan gestionar accesos de manera centralizada sin comprometer la seguridad de su información.",
-            "tecnologias":["Kong", "Apigee", "AWS"]  },
+            "pais": "Perú",
+            "rubro": "Belleza y Cosmética",
+            "descripcion": "Plataforma diseñada para administrar y proteger el acceso a códigos de diferentes sistemas mediante API’s seguras. Implementa autenticación robusta y control de permisos granular para garantizar que solo usuarios autorizados puedan acceder a los recursos. Este sistema ofrece cifrado en tránsito y en reposo, registro de auditoría detallado y una arquitectura basada en API’s para facilitar la integración con entornos empresariales. Ideal para organizaciones que buscan gestionar accesos de manera centralizada sin comprometer la seguridad de su información.",
+            "tecnologias": [
+                "Kong",
+                "Apigee",
+                "AWS"
+            ]
+        },
         {
             "titulo": "SVD (Sistema de Verificación de Direcciones)",
             "entidad": "BanBif",
             "anio": 2018,
-            "pais":"Perú",
-            "rubro":"Banca",
-            "descripcion":"Un Sistema de Verificación de Direcciones que centraliza, orquesta y almacena las direcciones de clientes para su validación automática, reduciendo costos operativos y mejorando la precisión en la gestión de datos. La plataforma proporciona esta funcionalidad a múltiples aplicaciones dentro del banco y a clientes externos a través de Banca Red, garantizando integridad, eficiencia y mayor alcance en la validación de direcciones.",
-            "tecnologias":[".Net", "SqlServer", "Entity Framework", "WCF"]  }
+            "pais": "Perú",
+            "rubro": "Banca",
+            "descripcion": "Un Sistema de Verificación de Direcciones que centraliza, orquesta y almacena las direcciones de clientes para su validación automática, reduciendo costos operativos y mejorando la precisión en la gestión de datos. La plataforma proporciona esta funcionalidad a múltiples aplicaciones dentro del banco y a clientes externos a través de Banca Red, garantizando integridad, eficiencia y mayor alcance en la validación de direcciones.",
+            "tecnologias": [
+                ".Net",
+                "SqlServer",
+                "Entity Framework",
+                "WCF"
+            ]
+        },
+        {
+            "titulo": "Protal de Gestión de Ventas",
+            "entidad": "Claro",
+            "anio": "2012",
+            "pais": "Perú",
+            "rubro": "Telecomunicaciones",
+            "descripcion": "El Portal de Gestión de Ventas para Claro fue un sistema desarrollado con ASP.NET y Oracle para optimizar la gestión de ventas en los Centros de Atención al Cliente. Permitía registrar y dar seguimiento a las transacciones, gestionar el canje de puntos de fidelización y realizar la evaluación crediticia para la asignación de equipos. Su integración con Oracle garantizaba un manejo eficiente de grandes volúmenes de datos, mientras que ASP.NET proporcionaba una interfaz robusta y escalable. El sistema automatizaba procesos clave, reduciendo tiempos de atención, mejorando la precisión en la evaluación crediticia y optimizando la experiencia del cliente, además de facilitar la generación de reportes y auditorías para un control eficiente de las operaciones comerciales.",
+            "tecnologias": [
+                ".Net",
+                "Oracle",
+                "ASP.NET"
+            ]
+        },
+        {
+            "titulo": "GESPER",
+            "entidad": "COM.SA (INDRA)",
+            "anio": 2010,
+            "pais": "Perú",
+            "rubro": "Consultoría de Sistemas",
+            "descripcion": "El Sistema de Gestión de Personal, desarrollado para optimizar la administración de recursos humanos, permitía gestionar el registro de ingresos de empleados, controlar la marcación de asistencias, programar descansos y administrar el perfil de cada trabajador. Implementado con ASP.NET y SQL Server, el sistema aseguraba una integración eficiente con las bases de datos corporativas, facilitando el acceso a información actualizada en tiempo real. Además, ofrecía reportes detallados sobre la asistencia y desempeño del personal, mejorando la planificación operativa y la toma de decisiones estratégicas en la empresa.",
+            "tecnologias": [
+                ".Net",
+                "ASP.NET",
+                "SqlServer"
+            ]
+        },
+        {
+            "titulo": "Sistema Integrado de ISO",
+            "entidad": "Kola Real",
+            "anio": 2009,
+            "pais": "Perú",
+            "rubro": "Bebidas gaseosas y refrescos",
+            "descripcion": "Desarrollé un Sistema de Gestión Integral para la implementación y seguimiento de las normativas ISO 9001 (Gestión de Calidad), ISO 14001 (Gestión Ambiental) y OHSAS 18001 (Seguridad y Salud en el Trabajo). La plataforma permitía la administración de documentos normativos, auditorías internas, control de no conformidades, planes de acción correctiva y monitoreo del cumplimiento de estándares en tiempo real. Además, facilitaba la generación de reportes, la trazabilidad de procesos y la capacitación del personal en los requisitos de cada norma, asegurando una integración eficiente de los sistemas de gestión dentro de la empresa.",
+            "tecnologias": [
+                ".Net",
+                "SqlServer",
+                "ASP.NET",
+                "ISO"
+            ]
+        }
     ],
-    "iconos":[
-        {"Java 17":"java"},
-        {"Java 11":"java"},
-        {"Spring Boot":"springboot"},
-        {"GCP":"gcp"},
-        {"AWS":"aws"},
-        {"IntelliJ":"intellij"},
-        {"NodeJs":"nodejs"},
-        {"Visual Studio Code":"vscode"},
-        {".Net Core":"netcore"},
-        {".Net":"net"},
-        {"SqlServer":"sqlserver"},
-        {"Power BI":"powerbi"},
-        {"Azure":"azure"},
-        {"Tableau":"tableau"},
-        {"Kong":"kong"},
-        {"Apigee":"apigee"},
-        {"Entity Framework":"ef"},
-        {"WCF":"wcf"}
-
+    "iconos": [
+        {
+            "Java 17": "java"
+        },
+        {
+            "Java 11": "java"
+        },
+        {
+            "Spring Boot": "springboot"
+        },
+        {
+            "GCP": "gcp"
+        },
+        {
+            "AWS": "aws"
+        },
+        {
+            "IntelliJ": "intellij"
+        },
+        {
+            "NodeJs": "nodejs"
+        },
+        {
+            "Visual Studio Code": "vscode"
+        },
+        {
+            ".Net Core": "netcore"
+        },
+        {
+            ".Net": "net"
+        },
+        {
+            "SqlServer": "sqlserver"
+        },
+        {
+            "Power BI": "powerbi"
+        },
+        {
+            "Azure": "azure"
+        },
+        {
+            "Tableau": "tableau"
+        },
+        {
+            "Kong": "kong"
+        },
+        {
+            "Apigee": "apigee"
+        },
+        {
+            "Entity Framework": "ef"
+        },
+        {
+            "WCF": "wcf"
+        },
+        {"ASP.NET":"asp"},
+        {"Oracle":"oracle"},
+        {"ISO":"iso"}
+    ],
+    "habilidades": [
+        {
+            "nombre": "Java",
+            "visible": true,
+            "nivel": "Avanzado",
+            "versiones": [
+                8,
+                11,
+                17,
+                21
+            ],
+            "detalles": [
+                {
+                    "nombre": "Frameworks",
+                    "visible": true,
+                    "nivel": "Intermedio",
+                    "versiones": [],
+                    "detalles": [
+                        {
+                            "nombre": "Spring Boot",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "2.7.18",
+                                "3.2.2"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Quarkus",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "3.0.5",
+                                "3.7.1"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Micronaut",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "4.0.2"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Java EE/Jakarta EE",
+                            "nivel": "Avanzado",
+                            "visible": true,
+                            "versiones": [
+                                "8",
+                                "9",
+                                "10"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Play Framework",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "2.8.20"
+                            ],
+                            "detalles": []
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Librerías",
+                    "visible": true,
+                    "nivel": "Intermedio",
+                    "versiones": [],
+                    "detalles": [
+                        {
+                            "nombre": "Hibernate",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "6.2.13"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Lombok",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "1.18.30"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "JUnit",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "5.10.1"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Apache Commons",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "3.13.0"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Guava",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "32.1.2"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Jackson",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "2.16.0"
+                            ],
+                            "detalles": []
+                        }
+                    ]
+                },
+                {
+                    "nombre": "IDEs",
+                    "visible": true,
+                    "nivel": "Intermedio",
+                    "versiones": [],
+                    "detalles": [
+                        {
+                            "nombre": "IntelliJ IDEA",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "2023.3.1"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Eclipse",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "2023-12"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "NetBeans",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "19"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "VS Code (con extensiones)",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [],
+                            "detalles": []
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Unit Testing",
+                    "visible": true,
+                    "nivel": "Intermedio",
+                    "versiones": [],
+                    "detalles": [
+                        {
+                            "nombre": "JUnit",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "5.10.1"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "TestNG",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "7.8.0"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Mockito",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "5.7.0"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "AssertJ",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "3.24.2"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Spock",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "2.4-M1"
+                            ],
+                            "detalles": []
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Reportería",
+                    "visible": true,
+                    "nivel": "Intermedio",
+                    "versiones": [],
+                    "detalles": [
+                        {
+                            "nombre": "JasperReports",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "6.20.6"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Tableau",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "2023.3"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "Power BI",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "2.124.2028.0"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "BIRT",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "4.14.0"
+                            ],
+                            "detalles": []
+                        },
+                        {
+                            "nombre": "iReport",
+                            "nivel": "Intermedio",
+                            "visible": true,
+                            "versiones": [
+                                "5.6.0"
+                            ],
+                            "detalles": []
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
