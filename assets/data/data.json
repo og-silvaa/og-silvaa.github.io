@@ -90,7 +90,8 @@
                 ".Net Core",
                 "SqlServer",
                 "AWS",
-                "Power BI"
+                "Power BI",
+                "Visual Studio"
             ]
         },
         {
@@ -103,7 +104,8 @@
             "tecnologias": [
                 "NodeJs",
                 "Azure",
-                "Tableau"
+                "Tableau",
+                "Visual Studio Code"
             ]
         },
         {
@@ -116,7 +118,8 @@
             "tecnologias": [
                 "Kong",
                 "Apigee",
-                "AWS"
+                "AWS",
+                "Visual Studio Code"
             ]
         },
         {
@@ -130,7 +133,8 @@
                 ".Net",
                 "SqlServer",
                 "Entity Framework",
-                "WCF"
+                "WCF",
+                "Visual Studio"
             ]
         },
         {
@@ -143,7 +147,8 @@
             "tecnologias": [
                 ".Net",
                 "Oracle",
-                "ASP.NET"
+                "ASP.NET",
+                "Visual Studio"
             ]
         },
         {
@@ -156,7 +161,8 @@
             "tecnologias": [
                 ".Net",
                 "ASP.NET",
-                "SqlServer"
+                "SqlServer",
+                "Visual Studio"
             ]
         },
         {
@@ -170,7 +176,7 @@
                 ".Net",
                 "SqlServer",
                 "ASP.NET",
-                "ISO"
+                "ISO","Visual Studio"
             ]
         }
     ],
@@ -183,6 +189,7 @@
         "IntelliJ": "intellij",
         "NodeJs": "nodejs",
         "Visual Studio Code": "vscode",
+        "Visual Studio": "visualstudio",
         ".Net Core": "netcore",
         ".Net": "net",
         "SqlServer": "sqlserver",
