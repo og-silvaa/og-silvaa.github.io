@@ -174,65 +174,29 @@
             ]
         }
     ],
-    "iconos": [
-        {
-            "Java 17": "java"
-        },
-        {
-            "Java 11": "java"
-        },
-        {
-            "Spring Boot": "springboot"
-        },
-        {
-            "GCP": "gcp"
-        },
-        {
-            "AWS": "aws"
-        },
-        {
-            "IntelliJ": "intellij"
-        },
-        {
-            "NodeJs": "nodejs"
-        },
-        {
-            "Visual Studio Code": "vscode"
-        },
-        {
-            ".Net Core": "netcore"
-        },
-        {
-            ".Net": "net"
-        },
-        {
-            "SqlServer": "sqlserver"
-        },
-        {
-            "Power BI": "powerbi"
-        },
-        {
-            "Azure": "azure"
-        },
-        {
-            "Tableau": "tableau"
-        },
-        {
-            "Kong": "kong"
-        },
-        {
-            "Apigee": "apigee"
-        },
-        {
-            "Entity Framework": "ef"
-        },
-        {
-            "WCF": "wcf"
-        },
-        {"ASP.NET":"asp"},
-        {"Oracle":"oracle"},
-        {"ISO":"iso"}
-    ],
+    "iconos": {
+        "Java 17": "java",
+        "Java 11": "java",
+        "Spring Boot": "springboot",
+        "GCP": "gcp",
+        "AWS": "aws",
+        "IntelliJ": "intellij",
+        "NodeJs": "nodejs",
+        "Visual Studio Code": "vscode",
+        ".Net Core": "netcore",
+        ".Net": "net",
+        "SqlServer": "sqlserver",
+        "Power BI": "powerbi",
+        "Azure": "azure",
+        "Tableau": "tableau",
+        "Kong": "kong",
+        "Apigee": "apigee",
+        "Entity Framework": "ef",
+        "WCF": "wcf",
+        "ASP.NET": "asp",
+        "Oracle": "oracle",
+        "ISO": "iso"
+    },
     "habilidades": [
         {
             "nombre": "Java",

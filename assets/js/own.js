@@ -14,6 +14,7 @@ function updatePage() {
   document.getElementById("nombre").textContent = jsonData.nombre;
   document.getElementById("descripcion").innerHTML = jsonData.descripcion;
   proyectos(jsonData.proyectos);
+  habilidades(jsonData.habilidades);
 }
 
 function proyectos(proyectos) {
@@ -42,16 +43,47 @@ function tecnologias(tecnologias) {
   if(tecnologias==undefined) return "";
   let card = `<div>`;
 
-  tecnologias.forEach(tecnologia => {
-    let icono = jsonData.iconos.find(icono => tecnologia == Object.keys(icono)[0])
-    console.log(tecnologia);
-    console.log(icono);
+   tecnologias.forEach(tecnologia => {
+     let icono = jsonData.iconos[tecnologia];
     
-    if (icono!=undefined) {
-      card += `<img class="icono" src="images/icon/${Object.values(icono)[0]}.png" title="${tecnologia}">`;
-    } else {
-      card += `${tecnologia}   `
-    }
-  });
+     if (icono!=undefined) {
+       card += `<img class="icono" src="images/icon/${icono}.png" title="${tecnologia}">`;
+     } else {
+       card += `${tecnologia}   `
+     }
+   });
   return card+"</div>";
+}
+function habilidades(habilidades){
+  let contenedor=document.getElementById("habilidades");
+  let table=document.createElement("table");
+  
+  habilidades.forEach((habilidad,i)=>{
+    fila(habilidad,table);
+  })
+  contenedor.appendChild(table);
+}
+
+function fila(arbol, padre){
+  let contenedor = padre
+  let trCreate=false;
+  if(padre.nodeName!="TR"){
+      let tr= document.createElement("tr")
+      contenedor=tr
+      trCreate=true;
+    }
+  
+  let td = document.createElement("td");
+  td.innerHTML=arbol.nombre;
+  contenedor.appendChild(td);
+
+  if(arbol.detalles){
+    arbol.detalles.forEach((detalle,i)=>{
+      
+      fila(detalle,contenedor)
+      if(trCreate){
+        padre.appendChild(contenedor);
+      }
+    })
+  }
 }
